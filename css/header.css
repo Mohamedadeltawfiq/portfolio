@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 20px;
+    height: 60px;
+}
+header .left p{
+    font-size: large;
+    font-weight: 600;
+    font-family: "Bodoni Moda SC", serif;
+    color: #eee;
+}
+header i{
+    font-size: 16px;
+}
+header a:hover{
+    padding-bottom: 4px;
+}
+header .right-contact a{
+    all: unset;
+    color: #eee;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:"Bodoni Moda SC", serif ;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+}
+header .right-contact a:hover{
+    color: #0088ff;
+    border-bottom: 2px solid ;
+}
